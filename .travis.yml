@@ -3,9 +3,9 @@ jdk:
     - openjdk8
 addons:
     sonarcloud:
-        organization: stefanadrianhuma
+        organization: "stefanadrianhuma"
         token:
-            secure: fd26abd9957ec751e7965d44ebc523b8fe0de7d5
+            secure: "fd26abd9957ec751e7965d44ebc523b8fe0de7d5"
 script: 
 - ant build
 - sonar-scanner
