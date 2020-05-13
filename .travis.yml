@@ -3,7 +3,7 @@ jdk:
     - openjdk8
 addons:
     sonarcloud:
-        organization: "stefanadrianhuma"
+        organization: "StefAnadrianHuma"
         token:
             secure: "fd26abd9957ec751e7965d44ebc523b8fe0de7d5"
 script: 
